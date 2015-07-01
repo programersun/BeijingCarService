@@ -55,6 +55,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         
         
+        if(SR_UserInfoDetail.sharedInstance.isAppFirstLoad())
+        {
+            var storyBoard = UIStoryboard(name: "WelcomeStory", bundle: nil)
+            var vc         = storyBoard.instantiateInitialViewController() as! SR_WelcomeViewController
+            self.window?.rootViewController = vc
+        }
+        
+        
         // Override point for customization after application launch.
         return true
     }

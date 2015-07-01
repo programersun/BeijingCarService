@@ -31,6 +31,9 @@
 		A43F03C41B43D7930053FB5C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03BB1B43D7930053FB5C /* ThirdViewController.swift */; };
 		A43F03C51B43D7930053FB5C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03BD1B43D7930053FB5C /* FirstViewController.swift */; };
 		A43F03C61B43D7930053FB5C /* StoryNameFirst.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F03BE1B43D7930053FB5C /* StoryNameFirst.storyboard */; };
+		A43F03CB1B43EF3B0053FB5C /* SR_WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03C81B43EF3B0053FB5C /* SR_WelcomeView.swift */; };
+		A43F03CC1B43EF3B0053FB5C /* SR_WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03C91B43EF3B0053FB5C /* SR_WelcomeViewController.swift */; };
+		A43F03CD1B43EF3B0053FB5C /* WelcomeStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F03CA1B43EF3B0053FB5C /* WelcomeStory.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +78,9 @@
 		A43F03BB1B43D7930053FB5C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		A43F03BD1B43D7930053FB5C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A43F03BE1B43D7930053FB5C /* StoryNameFirst.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryNameFirst.storyboard; sourceTree = "<group>"; };
+		A43F03C81B43EF3B0053FB5C /* SR_WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_WelcomeView.swift; sourceTree = "<group>"; };
+		A43F03C91B43EF3B0053FB5C /* SR_WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_WelcomeViewController.swift; sourceTree = "<group>"; };
+		A43F03CA1B43EF3B0053FB5C /* WelcomeStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeStory.storyboard; sourceTree = "<group>"; };
 		CFE6FDEC5C85D5DECF4675B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,6 +146,7 @@
 				A43F03A91B43D70D0053FB5C /* SR_WaitProgressVC.swift */,
 				A43F03A41B43D70D0053FB5C /* SR_MainTabVC.swift */,
 				A43F03831B43D5E90053FB5C /* Main.storyboard */,
+				A43F03C71B43EF0D0053FB5C /* Welcome */,
 				A43F03BC1B43D7930053FB5C /* StroyNameFirst */,
 				A43F03B61B43D7930053FB5C /* StoryNameSecond */,
 				A43F03B91B43D7930053FB5C /* StoryNameThird */,
@@ -212,6 +219,16 @@
 				A43F03BE1B43D7930053FB5C /* StoryNameFirst.storyboard */,
 			);
 			path = StroyNameFirst;
+			sourceTree = "<group>";
+		};
+		A43F03C71B43EF0D0053FB5C /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				A43F03CA1B43EF3B0053FB5C /* WelcomeStory.storyboard */,
+				A43F03C81B43EF3B0053FB5C /* SR_WelcomeView.swift */,
+				A43F03C91B43EF3B0053FB5C /* SR_WelcomeViewController.swift */,
+			);
+			path = Welcome;
 			sourceTree = "<group>";
 		};
 		F3E11E2764D1D5194E552250 /* Pods */ = {
@@ -308,6 +325,7 @@
 				A43F03851B43D5E90053FB5C /* Main.storyboard in Resources */,
 				A43F038A1B43D5E90053FB5C /* LaunchScreen.xib in Resources */,
 				A43F03C21B43D7930053FB5C /* StoryNameSecond.storyboard in Resources */,
+				A43F03CD1B43EF3B0053FB5C /* WelcomeStory.storyboard in Resources */,
 				A43F03871B43D5E90053FB5C /* Images.xcassets in Resources */,
 				A43F03C61B43D7930053FB5C /* StoryNameFirst.storyboard in Resources */,
 				A43F03C01B43D7930053FB5C /* StoryNameFourth.storyboard in Resources */,
@@ -372,11 +390,13 @@
 				A43F03C11B43D7930053FB5C /* SecondViewController.swift in Sources */,
 				A43F03B21B43D70D0053FB5C /* SR_WaitProgressVC.swift in Sources */,
 				A43F03801B43D5E90053FB5C /* BeijingCarService.xcdatamodeld in Sources */,
+				A43F03CB1B43EF3B0053FB5C /* SR_WelcomeView.swift in Sources */,
 				A43F03AD1B43D70D0053FB5C /* SR_MainTabVC.swift in Sources */,
 				A43F03C41B43D7930053FB5C /* ThirdViewController.swift in Sources */,
 				A43F03AB1B43D70D0053FB5C /* SR_AnimationHelper.swift in Sources */,
 				A43F03B11B43D70D0053FB5C /* SR_ViewControllerExtension.swift in Sources */,
 				A43F03AE1B43D70D0053FB5C /* SR_NetOperate.swift in Sources */,
+				A43F03CC1B43EF3B0053FB5C /* SR_WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
