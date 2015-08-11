@@ -14,26 +14,28 @@
 		A43F03871B43D5E90053FB5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43F03861B43D5E90053FB5C /* Images.xcassets */; };
 		A43F038A1B43D5E90053FB5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A43F03881B43D5E90053FB5C /* LaunchScreen.xib */; };
 		A43F03961B43D5E90053FB5C /* BeijingCarServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03951B43D5E90053FB5C /* BeijingCarServiceTests.swift */; };
-		A43F03AA1B43D70D0053FB5C /* NSString+Encipher.m in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A11B43D70D0053FB5C /* NSString+Encipher.m */; };
-		A43F03AB1B43D70D0053FB5C /* SR_AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A21B43D70D0053FB5C /* SR_AnimationHelper.swift */; };
-		A43F03AC1B43D70D0053FB5C /* SR_ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A31B43D70D0053FB5C /* SR_ColorExtension.swift */; };
 		A43F03AD1B43D70D0053FB5C /* SR_MainTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A41B43D70D0053FB5C /* SR_MainTabVC.swift */; };
-		A43F03AE1B43D70D0053FB5C /* SR_NetOperate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A51B43D70D0053FB5C /* SR_NetOperate.swift */; };
-		A43F03AF1B43D70D0053FB5C /* SR_StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A61B43D70D0053FB5C /* SR_StringExtension.swift */; };
-		A43F03B01B43D70D0053FB5C /* SR_UserInfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A71B43D70D0053FB5C /* SR_UserInfoDetail.swift */; };
-		A43F03B11B43D70D0053FB5C /* SR_ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A81B43D70D0053FB5C /* SR_ViewControllerExtension.swift */; };
-		A43F03B21B43D70D0053FB5C /* SR_WaitProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03A91B43D70D0053FB5C /* SR_WaitProgressVC.swift */; };
-		A43F03BF1B43D7930053FB5C /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03B41B43D7930053FB5C /* FourthViewController.swift */; };
-		A43F03C01B43D7930053FB5C /* StoryNameFourth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F03B51B43D7930053FB5C /* StoryNameFourth.storyboard */; };
-		A43F03C11B43D7930053FB5C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03B71B43D7930053FB5C /* SecondViewController.swift */; };
-		A43F03C21B43D7930053FB5C /* StoryNameSecond.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F03B81B43D7930053FB5C /* StoryNameSecond.storyboard */; };
-		A43F03C31B43D7930053FB5C /* StoryNameThird.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F03BA1B43D7930053FB5C /* StoryNameThird.storyboard */; };
-		A43F03C41B43D7930053FB5C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03BB1B43D7930053FB5C /* ThirdViewController.swift */; };
-		A43F03C51B43D7930053FB5C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03BD1B43D7930053FB5C /* FirstViewController.swift */; };
-		A43F03C61B43D7930053FB5C /* StoryNameFirst.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F03BE1B43D7930053FB5C /* StoryNameFirst.storyboard */; };
 		A43F03CB1B43EF3B0053FB5C /* SR_WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03C81B43EF3B0053FB5C /* SR_WelcomeView.swift */; };
 		A43F03CC1B43EF3B0053FB5C /* SR_WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F03C91B43EF3B0053FB5C /* SR_WelcomeViewController.swift */; };
 		A43F03CD1B43EF3B0053FB5C /* WelcomeStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F03CA1B43EF3B0053FB5C /* WelcomeStory.storyboard */; };
+		A4C2D7B91B7886090003BDAC /* NSString+Encipher.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7B11B7886090003BDAC /* NSString+Encipher.m */; };
+		A4C2D7BA1B7886090003BDAC /* SR_AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7B21B7886090003BDAC /* SR_AnimationHelper.swift */; };
+		A4C2D7BB1B7886090003BDAC /* SR_ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7B31B7886090003BDAC /* SR_ColorExtension.swift */; };
+		A4C2D7BC1B7886090003BDAC /* SR_NetOperate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7B41B7886090003BDAC /* SR_NetOperate.swift */; };
+		A4C2D7BD1B7886090003BDAC /* SR_StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7B51B7886090003BDAC /* SR_StringExtension.swift */; };
+		A4C2D7BE1B7886090003BDAC /* SR_UserInfoDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7B61B7886090003BDAC /* SR_UserInfoDetail.swift */; };
+		A4C2D7BF1B7886090003BDAC /* SR_ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7B71B7886090003BDAC /* SR_ViewControllerExtension.swift */; };
+		A4C2D7C01B7886090003BDAC /* SR_WaitProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7B81B7886090003BDAC /* SR_WaitProgressVC.swift */; };
+		A4C2D7D81B78884E0003BDAC /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7D71B78884E0003BDAC /* NoticeViewController.swift */; };
+		A4C2D7DA1B78892B0003BDAC /* Notice.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C2D7D91B78892B0003BDAC /* Notice.storyboard */; };
+		A4C2D7DC1B7889620003BDAC /* RepairRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7DB1B7889620003BDAC /* RepairRecordsViewController.swift */; };
+		A4C2D7DE1B7889720003BDAC /* RepairRecords.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C2D7DD1B7889720003BDAC /* RepairRecords.storyboard */; };
+		A4C2D7E01B78897F0003BDAC /* MyCar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C2D7DF1B78897F0003BDAC /* MyCar.storyboard */; };
+		A4C2D7E21B78898E0003BDAC /* MyCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7E11B78898E0003BDAC /* MyCarViewController.swift */; };
+		A4C2D7E51B7889B50003BDAC /* Consultation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C2D7E41B7889B50003BDAC /* Consultation.storyboard */; };
+		A4C2D7E71B7889F80003BDAC /* ConsultationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7E61B7889F80003BDAC /* ConsultationViewController.swift */; };
+		A4C2D7EB1B788A250003BDAC /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7EA1B788A250003BDAC /* MyViewController.swift */; };
+		A4C2D7ED1B788A310003BDAC /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C2D7EC1B788A310003BDAC /* My.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,27 +62,29 @@
 		A43F03941B43D5E90053FB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A43F03951B43D5E90053FB5C /* BeijingCarServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeijingCarServiceTests.swift; sourceTree = "<group>"; };
 		A43F039F1B43D70C0053FB5C /* BeijingCarService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeijingCarService-Bridging-Header.h"; sourceTree = "<group>"; };
-		A43F03A01B43D70D0053FB5C /* NSString+Encipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encipher.h"; sourceTree = "<group>"; };
-		A43F03A11B43D70D0053FB5C /* NSString+Encipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encipher.m"; sourceTree = "<group>"; };
-		A43F03A21B43D70D0053FB5C /* SR_AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_AnimationHelper.swift; sourceTree = "<group>"; };
-		A43F03A31B43D70D0053FB5C /* SR_ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_ColorExtension.swift; sourceTree = "<group>"; };
 		A43F03A41B43D70D0053FB5C /* SR_MainTabVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_MainTabVC.swift; sourceTree = "<group>"; };
-		A43F03A51B43D70D0053FB5C /* SR_NetOperate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_NetOperate.swift; sourceTree = "<group>"; };
-		A43F03A61B43D70D0053FB5C /* SR_StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_StringExtension.swift; sourceTree = "<group>"; };
-		A43F03A71B43D70D0053FB5C /* SR_UserInfoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_UserInfoDetail.swift; sourceTree = "<group>"; };
-		A43F03A81B43D70D0053FB5C /* SR_ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_ViewControllerExtension.swift; sourceTree = "<group>"; };
-		A43F03A91B43D70D0053FB5C /* SR_WaitProgressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_WaitProgressVC.swift; sourceTree = "<group>"; };
-		A43F03B41B43D7930053FB5C /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		A43F03B51B43D7930053FB5C /* StoryNameFourth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryNameFourth.storyboard; sourceTree = "<group>"; };
-		A43F03B71B43D7930053FB5C /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		A43F03B81B43D7930053FB5C /* StoryNameSecond.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryNameSecond.storyboard; sourceTree = "<group>"; };
-		A43F03BA1B43D7930053FB5C /* StoryNameThird.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryNameThird.storyboard; sourceTree = "<group>"; };
-		A43F03BB1B43D7930053FB5C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		A43F03BD1B43D7930053FB5C /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A43F03BE1B43D7930053FB5C /* StoryNameFirst.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StoryNameFirst.storyboard; sourceTree = "<group>"; };
 		A43F03C81B43EF3B0053FB5C /* SR_WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_WelcomeView.swift; sourceTree = "<group>"; };
 		A43F03C91B43EF3B0053FB5C /* SR_WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_WelcomeViewController.swift; sourceTree = "<group>"; };
 		A43F03CA1B43EF3B0053FB5C /* WelcomeStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeStory.storyboard; sourceTree = "<group>"; };
+		A4C2D7B01B7886090003BDAC /* NSString+Encipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encipher.h"; sourceTree = "<group>"; };
+		A4C2D7B11B7886090003BDAC /* NSString+Encipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encipher.m"; sourceTree = "<group>"; };
+		A4C2D7B21B7886090003BDAC /* SR_AnimationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_AnimationHelper.swift; sourceTree = "<group>"; };
+		A4C2D7B31B7886090003BDAC /* SR_ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_ColorExtension.swift; sourceTree = "<group>"; };
+		A4C2D7B41B7886090003BDAC /* SR_NetOperate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_NetOperate.swift; sourceTree = "<group>"; };
+		A4C2D7B51B7886090003BDAC /* SR_StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_StringExtension.swift; sourceTree = "<group>"; };
+		A4C2D7B61B7886090003BDAC /* SR_UserInfoDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_UserInfoDetail.swift; sourceTree = "<group>"; };
+		A4C2D7B71B7886090003BDAC /* SR_ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_ViewControllerExtension.swift; sourceTree = "<group>"; };
+		A4C2D7B81B7886090003BDAC /* SR_WaitProgressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SR_WaitProgressVC.swift; sourceTree = "<group>"; };
+		A4C2D7D71B78884E0003BDAC /* NoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		A4C2D7D91B78892B0003BDAC /* Notice.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notice.storyboard; sourceTree = "<group>"; };
+		A4C2D7DB1B7889620003BDAC /* RepairRecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepairRecordsViewController.swift; sourceTree = "<group>"; };
+		A4C2D7DD1B7889720003BDAC /* RepairRecords.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RepairRecords.storyboard; sourceTree = "<group>"; };
+		A4C2D7DF1B78897F0003BDAC /* MyCar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MyCar.storyboard; sourceTree = "<group>"; };
+		A4C2D7E11B78898E0003BDAC /* MyCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCarViewController.swift; sourceTree = "<group>"; };
+		A4C2D7E41B7889B50003BDAC /* Consultation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Consultation.storyboard; sourceTree = "<group>"; };
+		A4C2D7E61B7889F80003BDAC /* ConsultationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultationViewController.swift; sourceTree = "<group>"; };
+		A4C2D7EA1B788A250003BDAC /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		A4C2D7EC1B788A310003BDAC /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
 		CFE6FDEC5C85D5DECF4675B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,23 +138,16 @@
 		A43F03791B43D5E90053FB5C /* BeijingCarService */ = {
 			isa = PBXGroup;
 			children = (
+				A4C2D7AF1B7886090003BDAC /* Frame */,
 				A43F037C1B43D5E90053FB5C /* AppDelegate.swift */,
-				A43F03A01B43D70D0053FB5C /* NSString+Encipher.h */,
-				A43F03A11B43D70D0053FB5C /* NSString+Encipher.m */,
-				A43F03A21B43D70D0053FB5C /* SR_AnimationHelper.swift */,
-				A43F03A31B43D70D0053FB5C /* SR_ColorExtension.swift */,
-				A43F03A51B43D70D0053FB5C /* SR_NetOperate.swift */,
-				A43F03A61B43D70D0053FB5C /* SR_StringExtension.swift */,
-				A43F03A71B43D70D0053FB5C /* SR_UserInfoDetail.swift */,
-				A43F03A81B43D70D0053FB5C /* SR_ViewControllerExtension.swift */,
-				A43F03A91B43D70D0053FB5C /* SR_WaitProgressVC.swift */,
 				A43F03A41B43D70D0053FB5C /* SR_MainTabVC.swift */,
 				A43F03831B43D5E90053FB5C /* Main.storyboard */,
 				A43F03C71B43EF0D0053FB5C /* Welcome */,
-				A43F03BC1B43D7930053FB5C /* StroyNameFirst */,
-				A43F03B61B43D7930053FB5C /* StoryNameSecond */,
-				A43F03B91B43D7930053FB5C /* StoryNameThird */,
-				A43F03B31B43D7930053FB5C /* StoryNameFourth */,
+				A4C2D7CD1B78871C0003BDAC /* Notice */,
+				A4C2D7D11B78871C0003BDAC /* RepairRecords */,
+				A4C2D7C91B78871C0003BDAC /* MyCar */,
+				A4C2D7C11B78871C0003BDAC /* Consultation */,
+				A4C2D7C51B78871C0003BDAC /* My */,
 				A43F03861B43D5E90053FB5C /* Images.xcassets */,
 				A43F03881B43D5E90053FB5C /* LaunchScreen.xib */,
 				A43F037E1B43D5E90053FB5C /* BeijingCarService.xcdatamodeld */,
@@ -185,42 +182,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A43F03B31B43D7930053FB5C /* StoryNameFourth */ = {
-			isa = PBXGroup;
-			children = (
-				A43F03B41B43D7930053FB5C /* FourthViewController.swift */,
-				A43F03B51B43D7930053FB5C /* StoryNameFourth.storyboard */,
-			);
-			path = StoryNameFourth;
-			sourceTree = "<group>";
-		};
-		A43F03B61B43D7930053FB5C /* StoryNameSecond */ = {
-			isa = PBXGroup;
-			children = (
-				A43F03B71B43D7930053FB5C /* SecondViewController.swift */,
-				A43F03B81B43D7930053FB5C /* StoryNameSecond.storyboard */,
-			);
-			path = StoryNameSecond;
-			sourceTree = "<group>";
-		};
-		A43F03B91B43D7930053FB5C /* StoryNameThird */ = {
-			isa = PBXGroup;
-			children = (
-				A43F03BA1B43D7930053FB5C /* StoryNameThird.storyboard */,
-				A43F03BB1B43D7930053FB5C /* ThirdViewController.swift */,
-			);
-			path = StoryNameThird;
-			sourceTree = "<group>";
-		};
-		A43F03BC1B43D7930053FB5C /* StroyNameFirst */ = {
-			isa = PBXGroup;
-			children = (
-				A43F03BD1B43D7930053FB5C /* FirstViewController.swift */,
-				A43F03BE1B43D7930053FB5C /* StoryNameFirst.storyboard */,
-			);
-			path = StroyNameFirst;
-			sourceTree = "<group>";
-		};
 		A43F03C71B43EF0D0053FB5C /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +190,187 @@
 				A43F03C91B43EF3B0053FB5C /* SR_WelcomeViewController.swift */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		A4C2D7AF1B7886090003BDAC /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7B01B7886090003BDAC /* NSString+Encipher.h */,
+				A4C2D7B11B7886090003BDAC /* NSString+Encipher.m */,
+				A4C2D7B21B7886090003BDAC /* SR_AnimationHelper.swift */,
+				A4C2D7B31B7886090003BDAC /* SR_ColorExtension.swift */,
+				A4C2D7B41B7886090003BDAC /* SR_NetOperate.swift */,
+				A4C2D7B51B7886090003BDAC /* SR_StringExtension.swift */,
+				A4C2D7B61B7886090003BDAC /* SR_UserInfoDetail.swift */,
+				A4C2D7B71B7886090003BDAC /* SR_ViewControllerExtension.swift */,
+				A4C2D7B81B7886090003BDAC /* SR_WaitProgressVC.swift */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		A4C2D7C11B78871C0003BDAC /* Consultation */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7C21B78871C0003BDAC /* Control */,
+				A4C2D7C31B78871C0003BDAC /* Model */,
+				A4C2D7C41B78871C0003BDAC /* View */,
+				A4C2D7E41B7889B50003BDAC /* Consultation.storyboard */,
+			);
+			path = Consultation;
+			sourceTree = "<group>";
+		};
+		A4C2D7C21B78871C0003BDAC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7E61B7889F80003BDAC /* ConsultationViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		A4C2D7C31B78871C0003BDAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4C2D7C41B78871C0003BDAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4C2D7C51B78871C0003BDAC /* My */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7C61B78871C0003BDAC /* Control */,
+				A4C2D7C71B78871C0003BDAC /* Model */,
+				A4C2D7C81B78871C0003BDAC /* View */,
+				A4C2D7EC1B788A310003BDAC /* My.storyboard */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		A4C2D7C61B78871C0003BDAC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7EA1B788A250003BDAC /* MyViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		A4C2D7C71B78871C0003BDAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4C2D7C81B78871C0003BDAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4C2D7C91B78871C0003BDAC /* MyCar */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7CA1B78871C0003BDAC /* Control */,
+				A4C2D7CB1B78871C0003BDAC /* Model */,
+				A4C2D7CC1B78871C0003BDAC /* View */,
+				A4C2D7DF1B78897F0003BDAC /* MyCar.storyboard */,
+			);
+			path = MyCar;
+			sourceTree = "<group>";
+		};
+		A4C2D7CA1B78871C0003BDAC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7E11B78898E0003BDAC /* MyCarViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		A4C2D7CB1B78871C0003BDAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4C2D7CC1B78871C0003BDAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4C2D7CD1B78871C0003BDAC /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7CE1B78871C0003BDAC /* Control */,
+				A4C2D7CF1B78871C0003BDAC /* Model */,
+				A4C2D7D01B78871C0003BDAC /* View */,
+				A4C2D7D91B78892B0003BDAC /* Notice.storyboard */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		A4C2D7CE1B78871C0003BDAC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7D71B78884E0003BDAC /* NoticeViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		A4C2D7CF1B78871C0003BDAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4C2D7D01B78871C0003BDAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4C2D7D11B78871C0003BDAC /* RepairRecords */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7D21B78871C0003BDAC /* Control */,
+				A4C2D7D31B78871C0003BDAC /* Model */,
+				A4C2D7D41B78871C0003BDAC /* View */,
+				A4C2D7DD1B7889720003BDAC /* RepairRecords.storyboard */,
+			);
+			path = RepairRecords;
+			sourceTree = "<group>";
+		};
+		A4C2D7D21B78871C0003BDAC /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A4C2D7DB1B7889620003BDAC /* RepairRecordsViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		A4C2D7D31B78871C0003BDAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4C2D7D41B78871C0003BDAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F3E11E2764D1D5194E552250 /* Pods */ = {
@@ -324,12 +466,13 @@
 			files = (
 				A43F03851B43D5E90053FB5C /* Main.storyboard in Resources */,
 				A43F038A1B43D5E90053FB5C /* LaunchScreen.xib in Resources */,
-				A43F03C21B43D7930053FB5C /* StoryNameSecond.storyboard in Resources */,
 				A43F03CD1B43EF3B0053FB5C /* WelcomeStory.storyboard in Resources */,
+				A4C2D7E01B78897F0003BDAC /* MyCar.storyboard in Resources */,
 				A43F03871B43D5E90053FB5C /* Images.xcassets in Resources */,
-				A43F03C61B43D7930053FB5C /* StoryNameFirst.storyboard in Resources */,
-				A43F03C01B43D7930053FB5C /* StoryNameFourth.storyboard in Resources */,
-				A43F03C31B43D7930053FB5C /* StoryNameThird.storyboard in Resources */,
+				A4C2D7DE1B7889720003BDAC /* RepairRecords.storyboard in Resources */,
+				A4C2D7E51B7889B50003BDAC /* Consultation.storyboard in Resources */,
+				A4C2D7ED1B788A310003BDAC /* My.storyboard in Resources */,
+				A4C2D7DA1B78892B0003BDAC /* Notice.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,23 +523,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43F03C51B43D7930053FB5C /* FirstViewController.swift in Sources */,
-				A43F03BF1B43D7930053FB5C /* FourthViewController.swift in Sources */,
-				A43F03AC1B43D70D0053FB5C /* SR_ColorExtension.swift in Sources */,
+				A4C2D7DC1B7889620003BDAC /* RepairRecordsViewController.swift in Sources */,
+				A4C2D7C01B7886090003BDAC /* SR_WaitProgressVC.swift in Sources */,
+				A4C2D7BB1B7886090003BDAC /* SR_ColorExtension.swift in Sources */,
+				A4C2D7BD1B7886090003BDAC /* SR_StringExtension.swift in Sources */,
 				A43F037D1B43D5E90053FB5C /* AppDelegate.swift in Sources */,
-				A43F03B01B43D70D0053FB5C /* SR_UserInfoDetail.swift in Sources */,
-				A43F03AA1B43D70D0053FB5C /* NSString+Encipher.m in Sources */,
-				A43F03AF1B43D70D0053FB5C /* SR_StringExtension.swift in Sources */,
-				A43F03C11B43D7930053FB5C /* SecondViewController.swift in Sources */,
-				A43F03B21B43D70D0053FB5C /* SR_WaitProgressVC.swift in Sources */,
+				A4C2D7B91B7886090003BDAC /* NSString+Encipher.m in Sources */,
+				A4C2D7BF1B7886090003BDAC /* SR_ViewControllerExtension.swift in Sources */,
+				A4C2D7EB1B788A250003BDAC /* MyViewController.swift in Sources */,
 				A43F03801B43D5E90053FB5C /* BeijingCarService.xcdatamodeld in Sources */,
+				A4C2D7BE1B7886090003BDAC /* SR_UserInfoDetail.swift in Sources */,
+				A4C2D7BC1B7886090003BDAC /* SR_NetOperate.swift in Sources */,
 				A43F03CB1B43EF3B0053FB5C /* SR_WelcomeView.swift in Sources */,
+				A4C2D7E71B7889F80003BDAC /* ConsultationViewController.swift in Sources */,
+				A4C2D7E21B78898E0003BDAC /* MyCarViewController.swift in Sources */,
 				A43F03AD1B43D70D0053FB5C /* SR_MainTabVC.swift in Sources */,
-				A43F03C41B43D7930053FB5C /* ThirdViewController.swift in Sources */,
-				A43F03AB1B43D70D0053FB5C /* SR_AnimationHelper.swift in Sources */,
-				A43F03B11B43D70D0053FB5C /* SR_ViewControllerExtension.swift in Sources */,
-				A43F03AE1B43D70D0053FB5C /* SR_NetOperate.swift in Sources */,
 				A43F03CC1B43EF3B0053FB5C /* SR_WelcomeViewController.swift in Sources */,
+				A4C2D7D81B78884E0003BDAC /* NoticeViewController.swift in Sources */,
+				A4C2D7BA1B7886090003BDAC /* SR_AnimationHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,19 +1,20 @@
 //
-//  FourthViewController.swift
+//  RepairRecordsViewController.swift
 //  BeijingCarService
 //
-//  Created by sun on 15/7/1.
+//  Created by 孙瑞 on 15/8/10.
 //  Copyright (c) 2015年 duostec. All rights reserved.
 //
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class RepairRecordsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.title = "我"
+        self.title = "修车记录"
+        
         // Do any additional setup after loading the view.
     }
 

@@ -17,10 +17,11 @@ import Foundation
 */
 enum StoryNameType : String
 {
-    case StoryNameFirst  = "StoryNameFirst"
-    case StoryNameSecond = "StoryNameSecond"
-    case StoryNameThird  = "StoryNameThird"
-    case StoryNameFourth = "StoryNameFourth"
+    case StoryNameFirst  = "Notice"
+    case StoryNameSecond = "RepairRecords"
+    case StoryNameThird  = "MyCar"
+    case StoryNameFourth = "Consultation"
+    case StoryNameFifth = "My"
 }
 
 extension String {
@@ -67,6 +68,10 @@ extension String {
             return ("secondItem_Select" , "secondItem" , "修车记录")
         case 2:
             return ("thirdItem_Select" , "thirdItem" , "我的车")
+        case 3:
+            return ("thirdItem_Select" , "thirdItem" , "在线咨询")
+        case 4:
+            return ("thirdItem_Select" , "thirdItem" , "我的")
         default:
             return ("firstItem_Select" , "firstItem" , "我")
         }

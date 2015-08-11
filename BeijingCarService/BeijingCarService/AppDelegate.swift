@@ -21,11 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /**
         *  以下两句话用来控制整体导航栏的颜色，以及导航栏上title的属性
         *
-        *  @param .PTPNaviBlueColor 应用主要的蓝色
+        *  @param .MainYellowColor 应用主要的橙色
         *
         *
         */
-        UINavigationBar.appearance().barTintColor = UIColor.redColor()
+        
+//        UINavigationBar.appearance().tintColor = UIColor.MainYellowColor()
+        UINavigationBar.appearance().barTintColor = UIColor.MainYellowColor()
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
         
         SR_NetOperate.sharedInstance.judgeNetCanConnect { (status) -> Void in

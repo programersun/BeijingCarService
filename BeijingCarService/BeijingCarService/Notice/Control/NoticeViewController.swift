@@ -1,14 +1,14 @@
 //
-//  FirstViewController.swift
+//  NoticeViewController.swift
 //  BeijingCarService
 //
-//  Created by sun on 15/7/1.
+//  Created by 孙瑞 on 15/8/10.
 //  Copyright (c) 2015年 duostec. All rights reserved.
 //
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class NoticeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
