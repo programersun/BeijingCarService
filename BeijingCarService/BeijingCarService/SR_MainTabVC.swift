@@ -25,16 +25,14 @@ class SR_MainTabVC: UITabBarController {
         // MARK:打开此处跑通登陆注册功能
         self.delegate = self
         self.setViewControllers([firstNavi , secondNavi , thirdNavi , fourthNavi, fifthNavi], animated: false)
-
-        self.navigationController?.navigationBar.translucent = false
         
-        self.tabBar.tintColor = UIColor.whiteColor()
-        self.tabBar.barTintColor = UIColor.MainYellowColor()
+        self.tabBar.tintColor = UIColor.MainYellowColor()
+        self.tabBar.barTintColor = UIColor(red: 240/255.0, green: 240/255.0, blue: 240/255.0, alpha: 1)
+        self.tabBar.backgroundColor = UIColor.whiteColor()
+        
+        UIActionSheet.appearance().tintColor = UIColor.redColor()
 //        self.tabBar.selectedImageTintColor = UIColor.blackColor()
-        var img = UIImage(named: "selected")
-        
-        self.tabBar.selectionIndicatorImage = UIImage(named: "selected")
-        
+
             /**
             *  初始化tabbar item 的视图样式
             *
@@ -53,9 +51,9 @@ class SR_MainTabVC: UITabBarController {
             itemForImgAndTitle.selectedImage = UIImage(named: info.selectImg)
             itemForImgAndTitle.image         = UIImage(named: info.image)
             itemForImgAndTitle.title         = info.titleString
-            itemForImgAndTitle.setTitleTextAttributes([NSFontAttributeName : UIFont.boldSystemFontOfSize(12) , NSForegroundColorAttributeName : UIColor.whiteColor()], forState: UIControlState.Normal)
+            itemForImgAndTitle.setTitleTextAttributes([NSFontAttributeName : UIFont.boldSystemFontOfSize(13) , NSForegroundColorAttributeName : UIColor.grayColor()], forState: UIControlState.Normal)
             
-            itemForImgAndTitle.setTitleTextAttributes([NSFontAttributeName : UIFont.boldSystemFontOfSize(12) , NSForegroundColorAttributeName : UIColor.whiteColor()], forState: UIControlState.Selected)
+            itemForImgAndTitle.setTitleTextAttributes([NSFontAttributeName : UIFont.boldSystemFontOfSize(13) , NSForegroundColorAttributeName : UIColor.MainYellowColor()], forState: UIControlState.Selected)
         }
 
         

@@ -25,9 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         *
         *
         */
-        
-//        UINavigationBar.appearance().tintColor = UIColor.MainYellowColor()
         UINavigationBar.appearance().barTintColor = UIColor.MainYellowColor()
+        UINavigationBar.appearance().translucent = true
         UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
         
         SR_NetOperate.sharedInstance.judgeNetCanConnect { (status) -> Void in

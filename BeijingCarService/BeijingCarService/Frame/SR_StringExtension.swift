@@ -69,9 +69,9 @@ extension String {
         case 2:
             return ("thirdItem_Select" , "thirdItem" , "我的车")
         case 3:
-            return ("thirdItem_Select" , "thirdItem" , "在线咨询")
+            return ("fourthItem_Select" , "fourthItem" , "在线咨询")
         case 4:
-            return ("thirdItem_Select" , "thirdItem" , "我的")
+            return ("fifthItem_Select" , "fifthItem" , "我的")
         default:
             return ("firstItem_Select" , "firstItem" , "我")
         }
