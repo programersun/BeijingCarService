@@ -81,5 +81,35 @@ extension UIViewController : UIAlertViewDelegate {
         
     }
 
+    /**
+    跳转到登录界面
+    */
+    func toLoginVC() {
+        var storyBoard = UIStoryboard(name: "Login", bundle: nil)
+        var vc = storyBoard.instantiateInitialViewController() as! LoginViewController
+        self.view.window?.rootViewController = vc
+    }
+    
+//    #define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+//    #define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+//    #define HEIGHTCHANGE SCREENWIDTH/320
+    func screenHeight() -> CGFloat{
+        return UIScreen.mainScreen().bounds.size.height
+    }
+    
+    func screenWidth() -> CGFloat{
+        return UIScreen.mainScreen().bounds.size.width
+    }
+    
+    func screenHeightChange() -> CGFloat{
+        return self.screenWidth()/320
+    }
+    
+    /**
+    跳转到登录界面
+    */
+    func changeFrame(sender: UIView) {
+        sender.frame = CGRectMake(sender.frame.origin.x * self.screenHeightChange(), sender.frame.origin.y * self.screenHeightChange(),sender.frame.size.width * self.screenHeightChange(), sender.frame.size.height * self.screenHeightChange())
+    }
 
 }

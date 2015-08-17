@@ -16,6 +16,7 @@ class SR_MainTabVC: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         var firstNavi = UIStoryboard(name: String.StoryForString(StoryNameType.StoryNameFirst), bundle: nil).instantiateInitialViewController() as! UINavigationController
         var secondNavi = UIStoryboard(name: String.StoryForString(StoryNameType.StoryNameSecond), bundle: nil).instantiateInitialViewController() as! UINavigationController
         var thirdNavi = UIStoryboard(name: String.StoryForString(StoryNameType.StoryNameThird), bundle: nil).instantiateInitialViewController() as! UINavigationController

@@ -44,17 +44,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var optionsRemote: AnyObject?     = launchOptions?[UIApplicationLaunchOptionsRemoteNotificationKey]
         var optionsLocal: AnyObject?      = launchOptions?[UIApplicationLaunchOptionsLocalNotificationKey]
         
-        ///如果用户重新登录 用户点击敏感信息的时候 提示登录
-        if isUserLogin
-        {
-            SR_UserInfoDetail.sharedInstance.saveReloginFlag("true")
-        }
-        else
-        {
-            ///没有登录过的用户 就不需要登录
-            SR_UserInfoDetail.sharedInstance.resetLoginMark()
-        }
-        
+//        ///如果用户重新登录 用户点击敏感信息的时候 提示登录
+//        if isUserLogin
+//        {
+//            SR_UserInfoDetail.sharedInstance.saveReloginFlag("true")
+//        }
+//        else
+//        {
+//            ///没有登录过的用户 就不需要登录
+//            SR_UserInfoDetail.sharedInstance.resetLoginMark()
+//        }
         
         if(SR_UserInfoDetail.sharedInstance.isAppFirstLoad())
         {
@@ -62,7 +61,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             var vc         = storyBoard.instantiateInitialViewController() as! SR_WelcomeViewController
             self.window?.rootViewController = vc
         }
-        
+        if(!SR_UserInfoDetail.sharedInstance.isUserLogin())
+        {
+            var storyBoard = UIStoryboard(name: String.StoryForString(StoryNameType.StoryNameLogin), bundle: nil)
+            var loginVC         = storyBoard.instantiateInitialViewController() as! LoginViewController
+            self.window?.rootViewController = loginVC
+        }
         
         // Override point for customization after application launch.
         return true
@@ -103,7 +107,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Core Data stack
     
     lazy var applicationDocumentsDirectory: NSURL = {
-        // The directory the application uses to store the Core Data store file. This code uses a directory named "com.duostec.BeijingCarService" in the application's documents Application Support directory.
+        // The directory the application uses to store the Core Data store file. This code uses a directory named "com.sun.Exiuhang" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
         return urls[urls.count-1] as! NSURL
         }()

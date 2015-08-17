@@ -3,7 +3,7 @@
 //  BeijingCarService
 //
 //  Created by 孙瑞 on 15/8/10.
-//  Copyright (c) 2015年 duostec. All rights reserved.
+//  Copyright (c) 2015年 瑞孙. All rights reserved.
 //
 
 import UIKit

@@ -36,6 +36,8 @@
 		A4C2D7E71B7889F80003BDAC /* ConsultationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7E61B7889F80003BDAC /* ConsultationViewController.swift */; };
 		A4C2D7EB1B788A250003BDAC /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C2D7EA1B788A250003BDAC /* MyViewController.swift */; };
 		A4C2D7ED1B788A310003BDAC /* My.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C2D7EC1B788A310003BDAC /* My.storyboard */; };
+		A4F346301B7DC48500F8B89D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F3462F1B7DC48500F8B89D /* LoginViewController.swift */; };
+		A4F346321B7DC88500F8B89D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F346311B7DC88500F8B89D /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		A4C2D7E61B7889F80003BDAC /* ConsultationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsultationViewController.swift; sourceTree = "<group>"; };
 		A4C2D7EA1B788A250003BDAC /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		A4C2D7EC1B788A310003BDAC /* My.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = My.storyboard; sourceTree = "<group>"; };
+		A4F3462F1B7DC48500F8B89D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A4F346311B7DC88500F8B89D /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		CFE6FDEC5C85D5DECF4675B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -143,6 +147,7 @@
 				A43F03A41B43D70D0053FB5C /* SR_MainTabVC.swift */,
 				A43F03831B43D5E90053FB5C /* Main.storyboard */,
 				A43F03C71B43EF0D0053FB5C /* Welcome */,
+				A4F346291B7DC36500F8B89D /* Login */,
 				A4C2D7CD1B78871C0003BDAC /* Notice */,
 				A4C2D7D11B78871C0003BDAC /* RepairRecords */,
 				A4C2D7C91B78871C0003BDAC /* MyCar */,
@@ -373,6 +378,39 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A4F346291B7DC36500F8B89D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A4F3462A1B7DC36500F8B89D /* Control */,
+				A4F3462B1B7DC36500F8B89D /* Model */,
+				A4F3462C1B7DC36500F8B89D /* View */,
+				A4F346311B7DC88500F8B89D /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A4F3462A1B7DC36500F8B89D /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				A4F3462F1B7DC48500F8B89D /* LoginViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		A4F3462B1B7DC36500F8B89D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4F3462C1B7DC36500F8B89D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F3E11E2764D1D5194E552250 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -472,6 +510,7 @@
 				A4C2D7DE1B7889720003BDAC /* RepairRecords.storyboard in Resources */,
 				A4C2D7E51B7889B50003BDAC /* Consultation.storyboard in Resources */,
 				A4C2D7ED1B788A310003BDAC /* My.storyboard in Resources */,
+				A4F346321B7DC88500F8B89D /* Login.storyboard in Resources */,
 				A4C2D7DA1B78892B0003BDAC /* Notice.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -527,6 +566,7 @@
 				A4C2D7C01B7886090003BDAC /* SR_WaitProgressVC.swift in Sources */,
 				A4C2D7BB1B7886090003BDAC /* SR_ColorExtension.swift in Sources */,
 				A4C2D7BD1B7886090003BDAC /* SR_StringExtension.swift in Sources */,
+				A4F346301B7DC48500F8B89D /* LoginViewController.swift in Sources */,
 				A43F037D1B43D5E90053FB5C /* AppDelegate.swift in Sources */,
 				A4C2D7B91B7886090003BDAC /* NSString+Encipher.m in Sources */,
 				A4C2D7BF1B7886090003BDAC /* SR_ViewControllerExtension.swift in Sources */,

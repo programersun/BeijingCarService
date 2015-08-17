@@ -3,7 +3,7 @@
 //  BeijingCarServiceTests
 //
 //  Created by sun on 15/7/1.
-//  Copyright (c) 2015年 duostec. All rights reserved.
+//  Copyright (c) 2015年 瑞孙. All rights reserved.
 //
 
 import UIKit

@@ -21,7 +21,8 @@ enum StoryNameType : String
     case StoryNameSecond = "RepairRecords"
     case StoryNameThird  = "MyCar"
     case StoryNameFourth = "Consultation"
-    case StoryNameFifth = "My"
+    case StoryNameFifth  = "My"
+    case StoryNameLogin  = "Login"
 }
 
 extension String {
