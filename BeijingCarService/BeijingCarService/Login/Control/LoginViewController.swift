@@ -9,32 +9,37 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+
+    @IBOutlet weak var loginTopImg: UIImageView!
     
-    @IBOutlet weak var mainScrollView: UIScrollView!
-    @IBOutlet weak var backgroundImg: UIImageView!
-    @IBOutlet weak var loginBtn: UIButton!
-    @IBOutlet weak var ForgetPasswordBtn: UIButton!
+    @IBOutlet weak var loginButtomView: UIView!
+    @IBOutlet weak var logoImg: UIImageView!
+    @IBOutlet weak var loginButtomImg: UIImageView!
     @IBOutlet weak var accountText: UITextField!
     @IBOutlet weak var PasswordText: UITextField!
-    
+    @IBOutlet weak var loginBtn: UIButton!
+    @IBOutlet weak var ForgetPasswordBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var img = UIImage(named: "LoginBackground")
-        var imgHeight = img?.size.height
-        var imgWidth  = img?.size.width
+        self.loginButtomView.frame = CGRectMake(0, self.screenHeight() - self.loginButtomView.frame.size.height * self.screenHeightChange(), self.loginButtomView.frame.size.width * self.screenHeightChange(), self.loginButtomView.frame.size.height * self.screenHeightChange())
+        self.loginTopImg.frame = CGRectMake(0, 0, self.screenWidth(), self.screenHeight())
+
+        self.accountText.delegate = self
+        self.PasswordText.delegate = self
+        self.accountText.font = UIFont.boldSystemFontOfSize(17 * self.screenHeightChange())
+        self.PasswordText.font = UIFont.boldSystemFontOfSize(17 * self.screenHeightChange())
+        self.accountText.setValue(UIColor.PlaceholderYellowColor(), forKeyPath: "_placeholderLabel.textColor")
+        self.PasswordText.setValue(UIColor.PlaceholderYellowColor(), forKeyPath: "_placeholderLabel.textColor")
         
-        self.backgroundImg.image = img
-        self.mainScrollView.frame = CGRectMake(0, 0, self.screenWidth(), self.screenHeight())
-        
-        self.changeFrame(self.backgroundImg)
+        self.changeFrame(self.logoImg)
+        self.changeFrame(self.loginButtomImg)
         self.changeFrame(self.loginBtn)
         self.changeFrame(self.ForgetPasswordBtn)
         self.changeFrame(self.accountText)
         self.changeFrame(self.PasswordText)
         
-        self.mainScrollView.contentSize = CGSizeMake(self.screenWidth() , self.backgroundImg.frame.size.height)
         self.addTouch()
         
         // Do any additional setup after loading the view.
@@ -51,13 +56,19 @@ class LoginViewController: UIViewController {
     
     //给背景添加请出时间，撤出键盘
     func addTouch() {
-        var tap = UITapGestureRecognizer(target: self, action: Selector("backgroundImgTap"))
-        self.backgroundImg.addGestureRecognizer(tap)
+        
+        var tapButtom = UITapGestureRecognizer(target: self, action: Selector("backgroundImgTap"))
+        self.view.addGestureRecognizer(tapButtom)
     }
     
     func backgroundImgTap() {
-        self.accountText.resignFirstResponder()
-        self.PasswordText.resignFirstResponder()
+
+        UIView.animateWithDuration(0.5, animations: { () -> Void in
+            self.view.frame = CGRectMake(0, 0, self.screenWidth(), self.screenHeight())
+        }) { (Bool) -> Void in
+            self.accountText.resignFirstResponder()
+            self.PasswordText.resignFirstResponder()
+        }
     }
     
     //登录
@@ -85,4 +96,14 @@ class LoginViewController: UIViewController {
     }
     */
 
+}
+
+extension LoginViewController : UITextFieldDelegate {
+    func textFieldDidBeginEditing(textField: UITextField) {
+        UIView.animateWithDuration(0.5, animations: { () -> Void in
+            self.view.frame = CGRectMake(0, -50, self.screenWidth(), self.screenHeight())
+            
+        })
+        
+    }
 }

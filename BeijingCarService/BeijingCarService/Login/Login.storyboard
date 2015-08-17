@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="hhp-uC-lH6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="hhp-uC-lH6">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -13,16 +13,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" id="72s-19-V47">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginBackground" id="8X3-6J-PkP">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" id="pKM-XH-oRK">
+                                <rect key="frame" x="0.0" y="50" width="320" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" id="KRC-r1-Bkh" userLabel="buttomView">
+                                <rect key="frame" x="0.0" y="255" width="320" height="313"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginBackground" id="8X3-6J-PkP">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loginButtom" id="vfZ-R2-gU1">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="313"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7b7-AR-J7W" userLabel="LoginBtn">
-                                        <rect key="frame" x="19" y="373" width="281" height="43"/>
+                                        <rect key="frame" x="20" y="114" width="281" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal">
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -31,32 +39,32 @@
                                             <action selector="loginBtnClick:" destination="hhp-uC-lH6" eventType="touchUpInside" id="w8r-UY-EjY"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aG8-D7-X3Q" userLabel="ForgetPasswordBtn">
-                                        <rect key="frame" x="130" y="434" width="62" height="22"/>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入账户名" minimumFontSize="17" id="XoQ-Ht-Xkf" userLabel="AccountText">
+                                        <rect key="frame" x="59" y="11" width="242" height="42"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入密码" minimumFontSize="17" id="BQf-Xt-xNp" userLabel="PasswordText">
+                                        <rect key="frame" x="59" y="64" width="242" height="42"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aG8-D7-X3Q" userLabel="ForgetPasswordBtn">
+                                        <rect key="frame" x="233" y="175" width="64" height="22"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <state key="normal" title="找回密码">
+                                            <color key="titleColor" red="0.96470588235294119" green="0.23137254901960785" blue="0.039215686274509803" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" red="0.96470588239999999" green="0.23137254900000001" blue="0.039215686270000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="forgetPasswordBtnClick:" destination="hhp-uC-lH6" eventType="touchUpInside" id="b2R-kD-l76"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请" minimumFontSize="17" id="XoQ-Ht-Xkf" userLabel="AccountText">
-                                        <rect key="frame" x="58" y="273" width="242" height="42"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请" minimumFontSize="17" id="BQf-Xt-xNp" userLabel="PasswordText">
-                                        <rect key="frame" x="58" y="324" width="242" height="42"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                 </subviews>
-                            </scrollView>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -65,9 +73,11 @@
                         <outlet property="ForgetPasswordBtn" destination="aG8-D7-X3Q" id="Dam-ns-1hq"/>
                         <outlet property="PasswordText" destination="BQf-Xt-xNp" id="wqK-IG-IA0"/>
                         <outlet property="accountText" destination="XoQ-Ht-Xkf" id="bFo-QQ-2GS"/>
-                        <outlet property="backgroundImg" destination="8X3-6J-PkP" id="WKc-m5-Qyu"/>
                         <outlet property="loginBtn" destination="7b7-AR-J7W" id="t1L-gV-SOF"/>
-                        <outlet property="mainScrollView" destination="72s-19-V47" id="0wL-L7-x5B"/>
+                        <outlet property="loginButtomImg" destination="vfZ-R2-gU1" id="ygf-i8-1vD"/>
+                        <outlet property="loginButtomView" destination="KRC-r1-Bkh" id="Wzf-sz-Otk"/>
+                        <outlet property="loginTopImg" destination="8X3-6J-PkP" id="N4A-iy-Qob"/>
+                        <outlet property="logoImg" destination="pKM-XH-oRK" id="3rn-Bk-qtY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tui-vN-LBY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -76,7 +86,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LoginBackground" width="320" height="553"/>
+        <image name="LoginBackground" width="320" height="568"/>
+        <image name="loginButtom" width="320" height="298"/>
+        <image name="logo" width="320" height="114"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

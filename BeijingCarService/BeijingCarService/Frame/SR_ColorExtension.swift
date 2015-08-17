@@ -13,7 +13,7 @@ extension UIColor{
     /**
     项目主要使用橙色
     
-    :returns: 应用于 TabBar title、
+    :returns: 应用于 TabBar title
     */
     class func MainYellowColor() -> UIColor
     {
@@ -21,9 +21,19 @@ extension UIColor{
     }
     
     /**
+    Placeholder使用橙色
+    
+    :returns: 应用于 Placeholder
+    */
+    class func PlaceholderYellowColor() -> UIColor
+    {
+        return UIColor(red: 203 / 255.0, green: 138 / 255.0, blue: 106 / 255.0, alpha: 1)
+    }
+    
+    /**
     TabBar被选中的颜色
     
-    :returns: 应用于 TabBar title、
+    :returns: 应用于 TabBar 背景
     */
     class func TabBarSelectColor() -> UIColor
     {

@@ -18,6 +18,14 @@ class MyViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    @IBAction func logOutBtnClick(sender: AnyObject) {
+        SR_UserInfoDetail.sharedInstance.logoutUser()
+        var storyBoard = UIStoryboard(name: "Login", bundle: nil)
+        var loginVC  = storyBoard.instantiateInitialViewController() as! LoginViewController
+        self.view.window?.rootViewController = loginVC
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

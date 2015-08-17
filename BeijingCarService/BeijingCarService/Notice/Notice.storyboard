@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="M5D-ld-7VA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="M5D-ld-7VA">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
@@ -37,20 +37,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9d-g0-My5">
-                                <rect key="frame" x="277" y="253" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="logOutBtnClick:" destination="YXQ-Wf-Ebo" eventType="touchUpInside" id="RTu-Xd-TL0"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginBackground" translatesAutoresizingMaskIntoConstraints="NO" id="pbf-aP-7ci">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="r9d-g0-My5" secondAttribute="centerX" id="7q9-31-acF"/>
-                            <constraint firstAttribute="centerY" secondItem="r9d-g0-My5" secondAttribute="centerY" id="L2v-Gj-uuc"/>
+                            <constraint firstItem="pbf-aP-7ci" firstAttribute="leading" secondItem="cZq-O4-aXo" secondAttribute="leading" id="387-eB-MGL"/>
+                            <constraint firstItem="app-gP-AQQ" firstAttribute="top" secondItem="pbf-aP-7ci" secondAttribute="bottom" id="UPj-2C-hq8"/>
+                            <constraint firstAttribute="trailing" secondItem="pbf-aP-7ci" secondAttribute="trailing" id="msj-iT-fER"/>
+                            <constraint firstItem="pbf-aP-7ci" firstAttribute="top" secondItem="cZq-O4-aXo" secondAttribute="top" id="ymq-Ux-1Hu"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="GDU-14-wjk"/>
@@ -60,4 +56,7 @@
             <point key="canvasLocation" x="243" y="200"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LoginBackground" width="320" height="568"/>
+    </resources>
 </document>
